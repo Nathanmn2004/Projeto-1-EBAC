@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    background-color: midnightblue;
+    padding: 16px 0;
+    
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1{
+    color: white;
+}
+
+
+.opcoes li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.opcoes ul li{
+    display: inline;
+    
+}
+
+section  .container{
+    margin-top: 60px;
+    align-items: flex-start;
+}
+
+section .container img{
+    height: 500px;
+}
+
+#minhaimg{
+    margin-left: 20px;
+}
+
+.textoSobreMim {
+    margin-left: 40px;
+}
+
+.textoSobreMim h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.textoSobreMim p{
+    padding: 10px;
+}
+
+#contato .container{
+    justify-content: flex-start;
+}
+
+.container ul li img{
+    height: 40px;
+}
+
+form textarea{
+    resize: none;
+}
+
+#contato .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+form input, form textarea, form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.contact-methods{
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+
+
+footer {
+    background-color: midnightblue;
+}
+
+footer .container{
+    margin-top: 20px;
+    color: white;
+    padding: 16px;
+}
+
+.dividir-tela{
+    display: flex;
+}
+
+#contato .container h2{
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
